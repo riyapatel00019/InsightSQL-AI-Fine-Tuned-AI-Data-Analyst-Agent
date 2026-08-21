@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "category": "select",
+    "question": "Show all customers."
+  },
+  {
+    "id": 2,
+    "category": "where",
+    "question": "Show customers from Gujarat."
+  },
+  {
+    "id": 3,
+    "category": "order_by",
+    "question": "Show products from highest price to lowest price."
+  },
+  {
+    "id": 4,
+    "category": "limit",
+    "question": "Show the 5 most expensive products."
+  },
+  {
+    "id": 5,
+    "category": "count",
+    "question": "How many customers are there?"
+  },
+  {
+    "id": 6,
+    "category": "average",
+    "question": "What is the average product price?"
+  },
+  {
+    "id": 7,
+    "category": "group_by",
+    "question": "How many customers are there in each state?"
+  },
+  {
+    "id": 8,
+    "category": "join",
+    "question": "Show customers and their orders."
+  }
+]

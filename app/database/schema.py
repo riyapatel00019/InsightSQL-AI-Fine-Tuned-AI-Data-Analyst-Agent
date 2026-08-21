@@ -2,6 +2,21 @@ from app.database.connection import get_connection
 
 
 def get_schema():
+    """
+    Get database schema from PostgreSQL.
+
+    Returns:
+        dict:
+        {
+            "customers": [
+                {
+                    "column": "customer_id",
+                    "type": "integer"
+                },
+                ...
+            ]
+        }
+    """
 
     connection = get_connection()
 
@@ -40,7 +55,10 @@ def get_schema():
         return schema
 
     finally:
+
         connection.close()
+
+
 def format_schema(schema):
     """
     Convert schema dictionary into text
